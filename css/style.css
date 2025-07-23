@@ -1,0 +1,46 @@
+/*OTKLANJANJE RAZMAKA*/
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box; 
+}
+body{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    /*font-weight: <weight>;*/
+    font-style: normal;
+}
+
+.josefin-sans {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 70;
+  font-style: normal;
+}
+
+#hero{
+    background: url(https://eklinika.telegraf.rs/wp-content/uploads/2021/06/23/sladoled-domaci-shutterstock_479888863.jpg)
+    no-repeat center/cover; 
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    /*da bi bili poređani po sredini*/
+    justify-content: center;
+    text-align: center;
+
+}
+
+.hero-content h1{
+    color: black;
+    
+
+}
+
+.hero-content{
+    background-color: rgb(255, 255, 255, 0.3);
+    padding: 50px;
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px  black;
+}
